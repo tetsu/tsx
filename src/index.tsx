@@ -1,9 +1,13 @@
 import ReactDOM from "react-dom";
-import Parent from './Parent';
+import GuestList from "./state/GuestList";
 
 const App = () => {
-    return <Parent />
-}
+    return (
+        <div>
+            <GuestList/>
+        </div>
+    );
+};
 
 ReactDOM.render(
     <App />,
