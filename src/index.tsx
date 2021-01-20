@@ -1,9 +1,8 @@
 import ReactDOM from "react-dom";
+import Parent from './Parent';
 
 const App = () => {
-    return <div>
-        <h1>Hi there!</h1>
-    </div>
+    return <Parent />
 }
 
 ReactDOM.render(
